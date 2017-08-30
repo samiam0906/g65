@@ -1,0 +1,42 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+  color: white;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+.container {
+  clear: both;
+  /*width: 960px;*/
+  max-width: 96%;
+  margin: 0 auto;
+}
+
+.sidebar {
+  /*width: 300px;*/
+  max-width: 29%;
+  float: left;
+}
+
+.posts {
+  /*width: 660px;*/
+  max-width: 67%;
+  float: left;
+  line-height: 1.5;
+}
+
+.post {
+  padding: 20px;
+}
+
+.post-title {
+  font-size: 2rem;
+}
+
+img {
+  max-width: 100%;
+}

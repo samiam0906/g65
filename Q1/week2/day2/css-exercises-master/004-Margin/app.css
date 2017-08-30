@@ -1,0 +1,21 @@
+div, section {
+  background: #222;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.center {
+  width: 50%;
+}
+
+/* Code Under This Line */
+.foo {
+  margin: 20px 0;
+}
+
+.center {
+  margin: 0 auto;
+}

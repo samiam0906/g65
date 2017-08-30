@@ -1,0 +1,33 @@
+div, section {
+  background: #222;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.center {
+  width: 50%;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+section {
+  margin: 0 auto;
+}
+
+/* Code Under This Line */
+.foo {
+  padding: 20px;
+}
+
+.center.special {
+  padding-left: 20px;
+}
+
+.center.special-alt {
+  padding: 20px 50px 50px;
+}

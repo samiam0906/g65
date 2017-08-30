@@ -1,0 +1,15 @@
+body {
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.visits {
+  padding-left: 16px;
+}
+
+span {
+  color: red;
+}
