@@ -46,7 +46,8 @@ var filtered = function(object, array) {
       newArray.push(object[array[i]]);
     }
   }
-  console.log(newArray.join(" "));
+  return newArray;
+  // console.log(newArray.join(" "));
 };
 
 // filtered(alphabet, testArray);
@@ -56,7 +57,8 @@ function alphabetPosition(text) {
   // codes goes here
   var lowerText = text.toLowerCase();
   var alphabetArray = lowerText.split(""); // text is turned into an Array
-  filtered(alphabet, alphabetArray);
+  var numberedText = filtered(alphabet, alphabetArray);
+  console.log(numberedText.join(" "));
 }
 
 alphabetPosition("The sunset sets at twelve o' clock.");
