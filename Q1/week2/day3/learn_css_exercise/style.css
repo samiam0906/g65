@@ -1,0 +1,51 @@
+body {
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.div1 {
+  display: inline-block;
+  width: calc(100% / 3);
+  border: 5px solid red;
+  float: left;
+}
+
+.div2 {
+  display: inline-block;
+  width: calc(100% / 3);
+  border: 5px solid green;
+  float: left;
+}
+
+.div3 {
+  display: inline-block;
+  width: calc(100% / 3);
+  border: 5px solid blue;
+  float: left;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr:nth-child(3n+1) {
+  background-color: red;
+}
+
+tr:nth-child(even) {
+  background-color: blue;
+}
+
+tr:focus {
+  background-color: black;
+}
+
+@media (max-width: 600px) {
+  .container {
+    clear: both;
+    width: 100%;
+  }
+}

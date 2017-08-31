@@ -122,27 +122,36 @@ _.size = function(collection) {
 // then returns the original collection.
 _.forEach = function(collection, callback) {
   // Place your solution here
+  var newCollection = [];
   if (typeof collection === 'string' || Array.isArray(collection) === true) {
     for (var i = 0; i < collection.length; i ++) {
-
+      newCollection.push(collection[i]);
     }
   } else {
     for (var i = 0; i < Object.keys(collection).length; i ++) {
-
+      newCollection = {};
+      for (var key in collection) {
+        newCollection[key] = collection[key];
+      }
     }
   }
-  return collection;
+  return newCollection;
 };
 
 // Iterates on each element of a collection and
 // then returns a new array.
 _.map = function(collection, callback) {
 	// Place your solution here
+  var newArray = function(arr) {
+    return arr;
+  }
+  return newArray(collection);
 };
 
 // Returns a new collection with filtered elements.
 _.filter = function(collection, callback) {
 	// Place your solution here
+  return collection;
 };
 
 // Returns a new collection with unfiltered elements.
