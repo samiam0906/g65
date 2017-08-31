@@ -32,3 +32,51 @@ h3 {
 }
 
 /* Code Under This Line */
+
+#grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#grid2 .column {
+  text-align: center;
+  border: 2px solid white;
+}
+
+#grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#grid3 .column {
+  text-align: center;
+  border: 2px solid red;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.box {
+  border: 2px solid red;
+}
+
+.a {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.b {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.c {
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
