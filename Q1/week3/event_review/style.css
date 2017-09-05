@@ -1,0 +1,24 @@
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#green {
+  background-color: green;
+}
+
+.noColor {
+  background-color: none;
+}
