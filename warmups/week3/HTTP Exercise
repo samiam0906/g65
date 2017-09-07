@@ -1,0 +1,37 @@
+http-assessment
+Assessments for HTTP standard - Discuss Key Concepts of HTTP
+What are 4 parts of this URL?
+https://www.galvanize.com/blog?article=25
+
+1. protocol / scheme: https
+2. domain / host name: www.galvanize.com
+3. path: blog
+4. query: ?article=25
+
+What do the following HTTP status codes mean?
+
+200 - Request accepted, ready for the next one
+300 - Request accepted, but additional client work is needed
+400 - Request accepted, but there was an error on the client
+500 - Request accepted, but there was an error on the server
+
+What are three parts of an HTTP request?
+
+1. HTTP request method, URI, and protocol version
+2. HTTP request headers
+3. HTTP request body
+
+What are four HTTP methods?
+
+1. GET
+2. HEAD
+3. POST
+4. PUT
+5. DELETE
+
+What are three parts of an HTTP response?
+
+1. An HTTP version
+2. A status code
+3. Key-value headers
+4. And an optional body
